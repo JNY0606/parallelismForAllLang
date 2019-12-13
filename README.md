@@ -1,7 +1,7 @@
 # parallelismForAllLang
 Parallelism example for all language 用各種程式語言來實現平行處理(並行)
 
-Thread, process, goroutine, isolate, worker...有太多方法可以實現平行處理(並行), 有太多語言需要學習, 您累了嗎?<br/>
+Thread, process, goroutine, isolate, worker...有太多方法可以實現平行處理, 有太多語言需要學習, 您累了嗎?<br/>
 反正我是不累, 只要不用自擼GC, 高階語言來再多都坦得住 :)<br/>
 我儘量用最簡短的例子來演示parallelism, race, lock的概念, 訊息傳遞使用callback(沒錯!這東西幾乎每種語言都支援)<br/>
 lock的策略有很多, 具體還要依實際場景來分析選用, 為了讓程式簡潔一些, 我使用最基本的方式.
